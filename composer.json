@@ -1,0 +1,29 @@
+{
+  "name": "valantic-spryker/price-product-customer-group-storage-extension",
+  "type": "library",
+  "description": "The module provides plugin interfaces for extending PriceProductCustomerGroupStorage module functionality.",
+  "license": "proprietary",
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "spryker/code-sniffer": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ValanticSpryker\\": "src/ValanticSpryker/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "cs-check": "phpcs -p -s --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/",
+    "cs-fix": "phpcbf -p --standard=vendor/spryker/code-sniffer/SprykerStrict/ruleset.xml src/"
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  }
+}

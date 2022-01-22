@@ -4,7 +4,7 @@
   "description": "The module provides plugin interfaces for extending PriceProductCustomerGroupStorage module functionality.",
   "license": "proprietary",
   "require": {
-    "php": ">=7.4"
+    "php": ">=7.3"
   },
   "require-dev": {
     "spryker/code-sniffer": "*"

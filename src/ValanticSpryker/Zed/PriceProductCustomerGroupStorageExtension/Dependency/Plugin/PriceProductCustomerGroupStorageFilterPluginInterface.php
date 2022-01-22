@@ -13,9 +13,9 @@ interface PriceProductCustomerGroupStorageFilterPluginInterface
      *
      * @api
      *
-     * @param array<\Generated\Shared\Transfer\PriceProductMerchantRelationshipStorageTransfer> $priceProductMerchantRelationshipStorageTransfers
+     * @param array<\Generated\Shared\Transfer\PriceProductCustomerGroupStorageTransfer> $priceProductCustomerGroupStorageTransfers
      *
-     * @return array<\Generated\Shared\Transfer\PriceProductMerchantRelationshipStorageTransfer>
+     * @return array<\Generated\Shared\Transfer\PriceProductCustomerGroupStorageTransfer>
      */
-    public function filter(array $priceProductMerchantRelationshipStorageTransfers): array;
+    public function filter(array $priceProductCustomerGroupStorageTransfers): array;
 }

@@ -1,5 +1,5 @@
 {
-  "name": "valantic-spryker/price-product-customer-group-storage-extension",
+  "name": "valantic-cec/price-product-customer-group-storage-extension",
   "type": "library",
   "description": "The module provides plugin interfaces for extending PriceProductCustomerGroupStorage module functionality.",
   "license": "proprietary",
